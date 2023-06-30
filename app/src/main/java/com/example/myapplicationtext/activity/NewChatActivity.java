@@ -1,4 +1,4 @@
-package com.example.myapplicationtext;
+package com.example.myapplicationtext.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class TestActivity extends AppCompatActivity {
+import com.example.myapplicationtext.R;
+
+public class NewChatActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

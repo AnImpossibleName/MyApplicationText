@@ -5,4 +5,7 @@
     <string name="button_cancel">Cancel</string>
     <string name="button_send">发送</string>
     <string name="tt">tt测试</string>
+    <string name="UserName">用户名</string>
+    <string name="Link">连接</string>
+    <string name="title">聊天</string>
 </resources>

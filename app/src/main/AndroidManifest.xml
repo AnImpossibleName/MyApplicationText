@@ -13,10 +13,22 @@
         android:theme="@style/Theme.MyApplicationtext"
         tools:targetApi="31">
         <activity
-            android:name=".TestActivity"
+            android:name=".Adapter.IncreaseAdapter"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Adapter.AddressAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Adapter.MsgAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.NewChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
